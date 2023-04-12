@@ -57,7 +57,7 @@ export default function SignInSide() {
         .then((data) => {
           if (data.msg === "error") alert("Invalid credentials");
           else {
-            nav("/signup");
+            nav("/dashboard");
           }
         })
         .catch((error) => {
