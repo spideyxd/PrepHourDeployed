@@ -127,6 +127,8 @@ export default function EnterDetails(props) {
     },
   });
 
+  
+
   const deleteRequest=()=>{
 
     

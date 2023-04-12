@@ -7,7 +7,8 @@ import  sorry from "../DesignAssets/sorry.png"
 const DashMentor = (props) => {
   return (
    <>
-   {props.arr != undefined &&
+   {
+   props.arr != undefined &&
           (props.arr.length == 0 ? (
         
            <img src={sorry} style={{ marginLeft:"25vw", width:"auto" ,maxHeight:"60vh" }}/>
