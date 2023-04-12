@@ -211,7 +211,7 @@ export default function ResponsiveDrawer() {
         >
         {rolee === "Mentor" ? (
           
-          <DashMentor arr={user.mentors !== undefined ? [] : []} />
+          <DashMentor arr={user.mentors !== undefined ? user.mentors : []} />
         ) : (
           <DashMentee name={user.firstName} email={user.email} />
         )}
