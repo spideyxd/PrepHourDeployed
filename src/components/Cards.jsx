@@ -17,7 +17,7 @@ export default function Cards(props) {
   const [user, setUser] = React.useState({});
   const getInfo = async () => {
     try {
-      const res = await fetch("getinfo", {
+      const res = await fetch(`${BASE_URL}/getinfo`, {
         method: "GET",
         headers: {
           Accept: "application/json",
