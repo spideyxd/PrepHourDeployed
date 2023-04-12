@@ -40,7 +40,7 @@ export default function ResponsiveDrawer() {
     })
       .then((data) => data.json())
       .then((data) => {
-        alert("no login");
+        
         console.log("hi this is shivam  :",data.role);
         setRolee(data.role);
         setUser(data);
