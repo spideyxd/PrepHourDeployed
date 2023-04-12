@@ -46,6 +46,7 @@ export default function ResponsiveDrawer() {
         setUser(data);
       })
       .catch((err) => {
+        alert(err);
         nav("/error");
       });
   }, []);
