@@ -14,8 +14,8 @@ const DashMentor = (props) => {
            <img src={sorry} style={{ marginLeft:"25vw", width:"auto" ,maxHeight:"60vh" }}/>
           
           ) : (
-            <></>
-            // props.arr.map((value, idx) => <Cards name={value.name } email={value.email} purpose={value.purpose} />)
+            // <></>
+            props.arr.map((value, idx) => <></>)
             
           ))}</>
   )
